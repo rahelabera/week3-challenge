@@ -1,4 +1,3 @@
-# Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
 *$py.class
@@ -17,8 +16,37 @@ eggs/
 lib/
 lib64/
 parts/
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
 sdist/
+.eggs/
+lib/
+lib64/
+parts/
 var/
+
+# VS Code
+.vscode/
+
+# macOS
+.DS_Store
+
+# Data
+data/
 wheels/
 share/python-wheels/
 *.egg-info/
